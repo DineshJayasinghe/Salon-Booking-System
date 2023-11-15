@@ -1,0 +1,48 @@
+body{
+	background-color:linear-gradient(315deg,#b3d9ff 0%,#d7e1ec 74%);
+	font-family: 'Arial';
+}
+
+.card{
+	text-align: center;
+}
+
+
+
+.container{
+	max-width: 1200px;
+	margin:auto;
+	background:#f2f2f2;
+	overflow:auto;
+}
+.product{
+	margin:5px;
+	border: 1px solid #ccc;
+	float:left;
+	width:390px;
+}
+.product img{
+	width:90%;
+	height:auto;
+}
+.desc{
+	padding: 15px;
+	text-align:center;
+	font-weight: bold;
+}
+h1{
+	font-style: italic;
+	font-family: serif;
+	font-size: 5em;
+	font-weight: bold;
+	margin:0;
+	padding:0;
+	text-align:center;
+	color: maroon;
+}
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+.div-table {
+    display: table;
+    width: 100%;
+    border-spacing: 5px;
+    /* cellspacing:poor IE support for  this */
+}
+
+.div-table-row {
+    display: table-row;
+    width: 100%;
+    clear: both;
+}
+
+.div-table-col {
+    float: left;
+    /* fix for  buggy browsers */
+    display: table-column;
+    width: 33%;
+}
